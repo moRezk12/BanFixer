@@ -1,0 +1,9 @@
+{
+  "navbar" : {
+    "HOME": "الرئيسية",
+    "SERVICES": "الخدمات",
+    "ABOUT": "من نحن",
+    "CONTACT": "اتصل بنا",
+    "MANAGEMENT": "الإدارة"
+  }
+}

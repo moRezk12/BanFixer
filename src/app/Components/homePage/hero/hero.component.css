@@ -1,0 +1,22 @@
+.intro {
+  margin-top: 50px;
+  background: linear-gradient(45deg, #ff6f61, #ffcc00, #64ffda);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 5px 5px 15px rgba(255, 111, 97, 0.7);
+  animation: fadeInOut 3s infinite;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}

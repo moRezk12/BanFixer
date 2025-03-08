@@ -1,0 +1,57 @@
+.container, .features-section {
+  width: 100%;
+  margin: 20px auto;
+  background-color: #112240;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+input, textarea {
+  background-color: #1c2b48;
+  color: white;
+}
+button {
+  background-color: #64ffda;
+  color: #0a192f;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #f8d210;
+}
+.service-list {
+  margin-top: 20px;
+}
+.service-card {
+  background-color: #112240;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.service-card h3 {
+  color: #64ffda;
+}
+.service-card p {
+  color: #f8f9fa;
+}
+.features-section h2 {
+  color: #64ffda;
+}
+.features-list {
+  text-align: right;
+  padding: 0 20px;
+}
+.features-list li {
+  margin: 10px 0;
+  color: #f8f9fa;
+}

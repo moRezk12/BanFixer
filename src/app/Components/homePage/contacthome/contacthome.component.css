@@ -1,0 +1,17 @@
+.contact {
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #112240;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.contact h2 {
+  color: #64ffda;
+  font-size: 28px;
+}
+.contact p {
+  font-size: 18px;
+  color: #f8f9fa;
+}

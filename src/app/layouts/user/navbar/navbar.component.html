@@ -1,0 +1,28 @@
+<header>
+  <nav class="" >
+    <div class="language-selector">
+      <div>
+        <button class="text-[20px]" (click)="changeLanguage(currentLang === 'ar' ? 'en' : 'ar')" >
+          {{ currentLang === 'ar' ? 'English' : 'العربية' }}
+        </button>
+      </div>
+      <!-- <select class="outline-none" (click)="changeLanguage(currentLang === 'ar' ? 'en' : 'ar')" >
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+      </select> -->
+    </div>
+    <ul class="hidden md:flex" >
+      <li><a routerLink="/home" routerLinkActive="active-hover" [routerLinkActiveOptions]="{ exact: true }" >{{ 'navbar.HOME' | translate }}</a></li>
+      <li><a routerLink="/service" routerLinkActive="active-hover" [routerLinkActiveOptions]="{ exact: true }"  > {{ 'navbar.SERVICES' | translate }}</a></li>
+      <li><a routerLink="/about" routerLinkActive="active-hover" [routerLinkActiveOptions]="{ exact: true }"  > {{ 'navbar.ABOUT' | translate }}</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active-hover" [routerLinkActiveOptions]="{ exact: true }"  > {{ 'navbar.CONTACT' | translate }}</a></li>
+      <li><a routerLink="/management" routerLinkActive="active-hover" [routerLinkActiveOptions]="{ exact: true }"  > {{ 'navbar.MANAGEMENT' | translate }}</a></li>
+    </ul>
+    <div class="profile  ">
+      <span class="username">
+        Ahmed Mohamed
+      </span>
+        <img src="https://i.pravatar.cc/150?img=3" alt="الصورة الشخصية" class="avatar">
+    </div>
+  </nav>
+</header>
