@@ -15,12 +15,10 @@
 
 
 body {
+  /* direction: rtl; */
   font-family: 'Tajawal', sans-serif;
   background-color: #0a192f;
   color: #f8f9fa;
 }
 
-section {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
+

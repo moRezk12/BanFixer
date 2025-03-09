@@ -1,0 +1,76 @@
+.search-card {
+  background: #112240;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.search-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #64ffda;
+  transition: color 0.3s;
+}
+
+.search-icon:hover {
+  color: #f8d210;
+}
+
+.search-input {
+  display: block;
+  margin-top: 20px;
+}
+
+.search-input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: #0a192f;
+  color: #f8f9fa;
+  outline: none;
+  text-align: center;
+}
+
+.student-details {
+  display: block;
+  margin-top: 20px;
+}
+
+.student-details img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  border: 3px solid #64ffda;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.student-details h3 {
+  margin: 10px 0;
+  font-size: 1.3rem;
+  color: #f8f9fa;
+}
+
+.student-details button {
+  background: linear-gradient(to right, #64ffda, #00bcd4);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+  color: #0a192f;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.student-details button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}

@@ -16,30 +16,30 @@ export class NavbarComponent {
     private renderer: Renderer2,
     private translate: TranslateService ,// إضافة TranslateService
   ) {
-    this.languageService.getLanguage().subscribe((lang) => {
-      this.currentLang = lang;
-      this.setLangAttribute(lang);
-      // this.flag = lang === 'ar';
-    });
+    // this.languageService.getLanguage().subscribe((lang) => {
+    //   this.currentLang = lang;
+    //   this.setLangAttribute(lang);
+    //   // this.flag = lang === 'ar';
+    // });
   }
 
-  setLangAttribute(lang: string) {
-    this.renderer.setAttribute(document.body, 'lang', lang);
-  }
+  // setLangAttribute(lang: string) {
+  //   this.renderer.setAttribute(document.body, 'lang', lang);
+  // }
 
-  // تغيير اللغة
-  changeLanguage(lang: string) {
-    // استخدام اللغة في ngx-translate
-    this.translate.use(lang);
-    console.log(lang);
+  // // تغيير اللغة
+  // changeLanguage(lang: string) {
+  //   // استخدام اللغة في ngx-translate
+  //   this.translate.use(lang);
+  //   console.log(lang);
 
-    // تحديث اللغة في LanguageService
-    this.languageService.changeLanguage(lang);
+  //   // تحديث اللغة في LanguageService
+  //   this.languageService.changeLanguage(lang);
 
-    // تعيين الاتجاه بناءً على اللغة المختارة
-    const direction = lang === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.setAttribute('dir', direction);
-    document.documentElement.setAttribute('lang', lang);
-  }
+  //   // تعيين الاتجاه بناءً على اللغة المختارة
+  //   const direction = lang === 'ar' ? 'rtl' : 'ltr';
+  //   document.documentElement.setAttribute('dir', direction);
+  //   document.documentElement.setAttribute('lang', lang);
+  // }
 
 }

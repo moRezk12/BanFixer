@@ -1,0 +1,31 @@
+.subjects {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.subject-card {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.subject-card h3 {
+  color: #fff;
+  margin-top: 10px;
+}
+.exam-btn {
+  background-color: #f8d210;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+.exam-btn:hover {
+  background-color: #ff6f61;
+}

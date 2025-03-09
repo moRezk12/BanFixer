@@ -1,0 +1,16 @@
+<div class="search-card">
+  <!-- أيقونة البحث -->
+  <div class="search-icon" (click)="showSearchInput()">🔍</div>
+
+  <!-- حقل إدخال كود الطالب -->
+  <div class="search-input" id="searchInput">
+      <input type="text" id="studentCode" placeholder="أدخل كود الطالب">
+  </div>
+
+  <!-- تفاصيل الطالب -->
+  <div *ngIf="searchinput" class="student-details" id="studentDetails">
+      <img src="https://i.pravatar.cc/150?img=3" alt="صورة الطالب" id="studentImage">
+      <h3 id="studentName"></h3>
+      <button >إضافة كصديق</button>
+  </div>
+</div>

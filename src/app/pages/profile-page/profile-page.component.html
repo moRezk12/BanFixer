@@ -1,0 +1,48 @@
+<div class="profile-container">
+  <!-- الجزء العلوي: تسجيل الخروج وحذف الحساب -->
+  <div class="profile-header">
+    <div class="profile-actions">
+      <button routerLink="/myfriends" > اصدقائى</button>
+      <button>تسجيل الخروج</button>
+    </div>
+  </div>
+
+  <!-- محتوى البروفايل -->
+  <div class="profile-content">
+    <!-- صورة البروفايل -->
+    <div class="profile-picture">
+      <img src="https://i.pravatar.cc/150?img=4" alt="صورة البروفايل">
+      <label for="profile-pic">🖋</label>
+      <input type="file" id="profile-pic" accept="image/*">
+    </div>
+
+    <!-- الاسم -->
+    <div class="profile-name">
+      <input type="text" value="محمد علي" placeholder="أدخل اسمك">
+      <button title="تعديل الاسم">🖋</button>
+    </div>
+
+    <!-- المعلومات -->
+    <div class="profile-info">
+      <div>
+        <h3>النقاط</h3>
+        <p>1,250 نقطة</p>
+      </div>
+      <div>
+        <h3>كود الطالب</h3>
+        <p>#123456</p>
+        <button class="copy-code" title="نسخ الكود">📋</button>
+      </div>
+      <div>
+        <h3>الترتيب</h3>
+        <p>12 من 500</p>
+      </div>
+    </div>
+
+    <!-- الأزرار -->
+    <div class="profile-buttons">
+      <button>منشوراتي</button>
+      <button routerLink="/addpost" >رفع منشور</button>
+    </div>
+  </div>
+</div>

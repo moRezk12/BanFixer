@@ -1,9 +1,14 @@
 <header>
   <nav class="" >
     <div class="language-selector">
-      <div>
+      <!-- <div>
         <button class="text-[20px]" (click)="changeLanguage(currentLang === 'ar' ? 'en' : 'ar')" >
           {{ currentLang === 'ar' ? 'English' : 'العربية' }}
+        </button>
+      </div> -->
+      <div>
+        <button routerLink="/searchfriends" class="text-[20px] bg-[#1e3a8a] text-[#fff] py-[8px] px-[10px] rounded-full " >
+          Search Friends
         </button>
       </div>
       <!-- <select class="outline-none" (click)="changeLanguage(currentLang === 'ar' ? 'en' : 'ar')" >
@@ -18,7 +23,7 @@
       <li><a routerLink="/contact" routerLinkActive="active-hover" [routerLinkActiveOptions]="{ exact: true }"  > {{ 'navbar.CONTACT' | translate }}</a></li>
       <li><a routerLink="/management" routerLinkActive="active-hover" [routerLinkActiveOptions]="{ exact: true }"  > {{ 'navbar.MANAGEMENT' | translate }}</a></li>
     </ul>
-    <div class="profile  ">
+    <div routerLink="/profile" class="profile cursor-pointer ">
       <span class="username">
         Ahmed Mohamed
       </span>

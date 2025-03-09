@@ -1,0 +1,36 @@
+.container {
+  margin: auto;
+  width: 90%;
+  /* max-width: 400px; */
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+input {
+  background: #fff;
+  color: #000;
+}
+.upload-btn {
+  background-color: #f8d210;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.upload-btn:hover {
+  background-color: #ff6f61;
+}
+.preview {
+  margin-top: 15px;
+}
+.preview img {
+  width: 100%;
+  border-radius: 10px;
+}
